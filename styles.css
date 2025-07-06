@@ -18,7 +18,7 @@ body {
 .frameholder {
     width: 100%;
     height: fit-content;
-    padding: 1rem 0;
+    /* padding: 1rem 0; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +36,11 @@ li {
     height: 100vh;
     text-align: center;
     scroll-snap-align: start;
-    padding: 2rem 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
 }
 a {
     font-size: 2rem;
