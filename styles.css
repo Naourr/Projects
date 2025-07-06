@@ -4,7 +4,6 @@
     padding: 0;
 }
 body {
-
     overflow-x: hidden;
 }
 .scroll-container {
@@ -45,4 +44,21 @@ a {
 }
 h1 {
     text-align: center;
+}
+.loading {
+    background-color: black;
+    color: purple;
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    
+    height: 100vh;
+    width: 100vw;
+    pointer-events: none;
+    z-index: 100;
+    opacity: 1;
+    transition: opacity 0.5s ease-out
 }
