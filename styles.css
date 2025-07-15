@@ -25,7 +25,7 @@ body {
 }
 iframe {
     width: 1100px;
-    height: 90vh;
+    height: 95vh;
     border: 8px solid purple;
     border-radius: 10px;
     box-shadow: 0 0 50px purple;
@@ -41,14 +41,14 @@ li {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 1rem;
+    /* gap: 1rem; */
 }
 a {
     font-size: 2rem;
     font-weight: bold;
     padding: 0px 2rem;
     width: 100%;
-    transform: translate(0 , 3rem);
+    transform: translate(0 , 2rem);
 }
 h1 {
     padding-top: 2rem;
