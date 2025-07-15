@@ -29,6 +29,7 @@ iframe {
     border: 8px solid purple;
     border-radius: 10px;
     box-shadow: 0 0 50px purple;
+    scale: .8;
 }
 li {
     list-style: none;
